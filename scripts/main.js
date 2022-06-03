@@ -15,4 +15,16 @@ catlink.addEventListener('mouseenter', (ev) => {
     }
 });
 
+const runlink = document.querySelector('.catanime');
 
+runlink.style.left = '40%';
+
+runlink.addEventListener('mouseenter', (ev) => {
+    
+    if(runlink.style.left == '80%') {
+        runlink.style.left = '0%';
+    } 
+        else {
+        runlink.style.left = '80%';
+    }
+});

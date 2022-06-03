@@ -40,5 +40,31 @@
   background-size: cover;
   overflow: hidden;
   position: relative;
+  -webkit-animation: move 10s infinite;
+          animation: move 10s infinite;
+}
+
+@-webkit-keyframes move {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 80%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes move {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 80%;
+  }
+  100% {
+    left: 0%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
