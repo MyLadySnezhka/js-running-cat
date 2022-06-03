@@ -1,0 +1,22 @@
+.wrapper {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border: 3px double #000;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.cathouse {
+    width: 320px;
+    height: 380px;
+    background-image: url(../images/cat.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
