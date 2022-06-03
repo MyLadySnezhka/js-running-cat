@@ -4,6 +4,8 @@
     width: 100%;
 }
 
+
+
 .wrapper1,
 .wrapper2 {
     width: 1200px;
@@ -23,9 +25,6 @@
     overflow: hidden;
     position: relative;
 
-    &:hover {
-        cursor: pointer;
-    }
 }
 
 .catanime {
@@ -36,8 +35,5 @@
     overflow: hidden;
     position: relative;
 
-    &:hover {
-        cursor: pointer;
-    }
 }
 
