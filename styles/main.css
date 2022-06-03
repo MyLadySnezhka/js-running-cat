@@ -1,6 +1,18 @@
-.wrapper {
+.body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.wrapper1,
+.wrapper2 {
   width: 1200px;
-  height: 600px;
+  height: 420px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +34,19 @@
 }
 
 .cathouse:hover {
+  cursor: pointer;
+}
+
+.catanime {
+  width: 200px;
+  height: 170px;
+  background-image: url(../images/cat2.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.catanime:hover {
   cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
