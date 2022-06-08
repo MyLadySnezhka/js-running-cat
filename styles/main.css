@@ -33,6 +33,10 @@
   position: relative;
 }
 
+h1 {
+  margin: 20px auto;
+}
+
 .catanime {
   width: 200px;
   height: 170px;
@@ -46,25 +50,25 @@
 
 @-webkit-keyframes move {
   0% {
-    left: 0%;
+    left: 0px;
   }
   50% {
-    left: 80%;
+    left: 1000px;
   }
   100% {
-    left: 0%;
+    left: 0px;
   }
 }
 
 @keyframes move {
   0% {
-    left: 0%;
+    left: 0px;
   }
   50% {
-    left: 80%;
+    left: 1000px;
   }
   100% {
-    left: 0%;
+    left: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */
