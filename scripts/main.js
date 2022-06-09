@@ -46,7 +46,7 @@ runlink.addEventListener('mouseenter', (ev) => {
     } 
         else {
         console.log('прыг направо');
-        runlink.style.left = '1100px';
+        runlink.style.left = '1000px';
     }
 });
 

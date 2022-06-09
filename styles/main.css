@@ -44,6 +44,7 @@ h1 {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  left: 600px;
   -webkit-animation: move 10s infinite;
           animation: move 10s infinite;
 }

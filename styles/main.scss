@@ -38,6 +38,7 @@ h1 {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    left: 600px;
     animation: move 10s infinite;
 
     @keyframes move {
@@ -45,6 +46,5 @@ h1 {
         50% {left: 1000px;}
         100% {left: 0px;} 
     }
-
 }
 
